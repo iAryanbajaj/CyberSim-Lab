@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0f0f23&height=180&section=header&text=CyberSim%20Lab&fontSize=42&fontColor=00ff41&animation=fadeIn&fontAlignY=35&desc=Advanced%20Cybersecurity%20Simulation%20Dashboard&descSize=18&descColor=00cc33"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0f0f23&height=180&section=header&text=CyberSim%20Lab&fontSize=42&fontColor=00ff41&animation=fadeIn&fontAlignY=35&desc=Advanced%20Cybersecurity%20 %20Dashboard&descSize=18&descColor=00cc33"/>
 
 <p align="center">
   <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></a>
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <b>Virus Simulation</b>
+  <b>Virus  </b>
   <span>&nbsp;·&nbsp;</span>
   <b>RAT Generator</b>
   <span>&nbsp;·&nbsp;</span>
@@ -47,9 +47,9 @@
 
 > **"To defeat your enemy, you must understand their weapons."**
 
-**CyberSim Lab** is a comprehensive, Flask-based cybersecurity simulation platform designed for ethical hacking research, academic study, and penetration testing training. It provides **three powerful simulation tools** that replicate real-world malware behaviors — viruses, remote access trojans (RATs), and ransomware — within a completely safe and controlled environment.
+**CyberSim Lab** is a comprehensive, Flask-based cybersecurity   platform designed for ethical hacking research, academic study, and penetration testing training. It provides **three powerful   tools** that replicate real-world malware behaviors — viruses, remote access trojans (RATs), and ransomware — within a completely safe and controlled environment.
 
-The platform runs on **Kali Linux** as the primary development environment and generates simulation artifacts targeting **Windows**, **macOS**, and **Linux** systems. All three tools use **Telegram Bot API** as the Command & Control (C2) server, enabling researchers to study full attack chains, communication protocols, and system-level interactions in real time.
+The platform runs on **Kali Linux** as the primary development environment and generates   artifacts targeting **Windows**, **macOS**, and **Linux** systems. All three tools use **Telegram Bot API** as the Command & Control (C2) server, enabling researchers to study full attack chains, communication protocols, and system-level interactions in real time.
 
 Whether you're a cybersecurity student learning about malware for the first time, a researcher studying attack patterns, or a penetration tester demonstrating threats to clients — CyberSim Lab provides the tools you need.
 
@@ -61,7 +61,7 @@ Whether you're a cybersecurity student learning about malware for the first time
 <tr>
 <td width="33%">
 
-### 🦠 Virus Simulation
+### 🦠 Virus  
 
 **Realistic malware binary generation** with social engineering deception
 
@@ -91,9 +91,9 @@ Whether you're a cybersecurity student learning about malware for the first time
 
 ### 🔐 Ransomware Generator
 
-**Complete ransomware attack chain** simulation with decryption
+**Complete ransomware attack chain**   with decryption
 
-- AES-256 encryption simulation
+- AES-256 encryption  
 - Configurable target extensions
 - Custom ransom note + wallet
 - Telegram C2 key reporting
@@ -108,9 +108,9 @@ Whether you're a cybersecurity student learning about malware for the first time
 
 ## 🔬 Deep Dive: Features Explained
 
-### 1. Virus Simulation — Deception at Its Finest
+### 1. Virus   — Deception at Its Finest
 
-The Virus Simulation engine generates highly realistic malware binaries that employ **social engineering** through a fake "System Update" website. When the binary executes on a target system, two parallel threads launch simultaneously:
+The Virus   engine generates highly realistic malware binaries that employ **social engineering** through a fake "System Update" website. When the binary executes on a target system, two parallel threads launch simultaneously:
 
 **Thread 1 — Fake Website Server:**
 - Starts a local HTTP server on a random port
@@ -120,7 +120,7 @@ The Virus Simulation engine generates highly realistic malware binaries that emp
 - Linux shows "System Package Update" with neutral branding
 - Features a 10-step animated progress bar with realistic status messages
 
-**Thread 2 — Virus Simulation:**
+**Thread 2 — Virus  :**
 - Collects comprehensive system information (hostname, OS, IP, CPU, RAM, disk)
 - Simulates rootkit behavior (process hiding, registry manipulation)
 - Simulates keylogger behavior (keystroke logging)
@@ -134,7 +134,7 @@ The HTML for the fake website is **Base64-encoded** within the template engine, 
 
 ```python
 # Pseudo-structure of generated virus binary
-class VirusSimulation:
+class Virus :
     def __init__(self, config):
         self.config = config          # Name, spread_rate, payload, etc.
         self.telegram_bot = TelegramC2(config.bot_token, config.chat_id)
@@ -143,7 +143,7 @@ class VirusSimulation:
         # Start fake website in background thread
         Thread(target=self.start_fake_update_page).start()
         
-        # Run virus simulation in main thread
+        # Run virus   in main thread
         self.collect_system_info()    # Hostname, OS, IP, hardware
         self.simulate_rootkit()       # Process hiding, persistence
         self.simulate_keylogger()     # Keystroke capture
@@ -277,7 +277,7 @@ Phase 5: REPORTING
 │  ┌─────────────────┐ ┌─────────────────┐ ┌──────────────────────┐  │
 │  │                 │ │                 │ │                      │  │
 │  │  🦠 Virus       │ │  🖥️ RAT         │ │  🔐 Ransomware       │  │
-│  │  Simulation     │ │  Generator      │ │  Generator           │  │
+│  │        │ │  Generator      │ │  Generator           │  │
 │  │  Engine         │ │  Engine         │ │  Engine              │  │
 │  │                 │ │                 │ │                      │  │
 │  │  • Fake Site    │ │  • OS Templates │ │  • Encrypt/Decrypt   │  │
@@ -401,10 +401,10 @@ After launching `python app.py`, the dashboard opens at `http://localhost:5001` 
  └──────────────────────────────────────────────────────────┘
 ```
 
-### Virus Simulation — Step by Step
+### Virus   — Step by Step
 
 ```bash
-# Step 1: Open the Virus Simulation tab
+# Step 1: Open the Virus   tab
 
 # Step 2: Configure parameters
 #   • Virus Name: "SystemOptimizer"
@@ -473,9 +473,9 @@ After launching `python app.py`, the dashboard opens at `http://localhost:5001` 
 # Step 3: Enter Telegram credentials
 
 # Step 4: Click "Generate Ransomware"
-#   → Downloads simulation script
+#   → Downloads   script
 
-# Step 5: Run on target (SIMULATION ONLY!)
+# Step 5: Run on target (  ONLY!)
 #   → Files encrypted → .locked extension added
 #   → Ransom note appears on desktop
 #   → Telegram receives: key, file count, victim info
@@ -557,9 +557,9 @@ cybersim-lab/
 
 > **Note:** Screenshots coming soon! The project is actively being documented.
 
-| Dashboard | Virus Simulation | Fake Update Page |
+| Dashboard | Virus   | Fake Update Page |
 |:---------:|:---------------:|:----------------:|
-| ![Dashboard](https://via.placeholder.com/400x250/0f0f23/00ff41?text=Dashboard) | ![Virus](https://via.placeholder.com/400x250/0f0f23/ff6b6b?text=Virus+Simulation) | ![Fake Update](https://via.placeholder.com/400x250/0f0f23/4ecdc4?text=Fake+Update) |
+| ![Dashboard](https://via.placeholder.com/400x250/0f0f23/00ff41?text=Dashboard) | ![Virus](https://via.placeholder.com/400x250/0f0f23/ff6b6b?text=Virus+ ) | ![Fake Update](https://via.placeholder.com/400x250/0f0f23/4ecdc4?text=Fake+Update) |
 
 | RAT Generator | Ransomware Generator | Telegram C2 |
 |:------------:|:-------------------:|:-----------:|
@@ -634,7 +634,7 @@ git push origin feature/your-feature-name
 - ✅ Test on all 3 target platforms (Windows, macOS, Linux)
 - ✅ Update documentation for any new features
 - ✅ Add unit tests where applicable
-- ❌ **Never add actual malicious capabilities** — simulation only!
+- ❌ **Never add actual malicious capabilities** —   only!
 
 ---
 
