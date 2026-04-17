@@ -1,0 +1,11 @@
+# CyberSim Lab - Requirements
+# =============================
+# Flask Dashboard (REQUIRED to run app.py)
+flask>=3.0.0
+
+# RAT Script Dependencies (needed on TARGET machine, not for dashboard)
+# Install these on the target machine where RAT will run:
+requests>=2.28.0
+pynput>=1.7.6
+Pillow>=9.0.0
+opencv-python>=4.5.0
