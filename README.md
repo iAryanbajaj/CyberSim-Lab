@@ -643,7 +643,7 @@ git push origin feature/your-feature-name
 This project is licensed under the **Educational Cybersecurity Research License**.
 
 ```
-Copyright (c) 2025 Aryan Bajaj
+Copyright (c) 2026 Aryan Bajaj
 
 This software is created STRICTLY for educational, academic research,
 and authorized cybersecurity testing purposes only.
